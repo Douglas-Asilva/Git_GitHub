@@ -6,8 +6,7 @@
 01. git checkout -b (nome-da-branch) Cria uma nova branch e já ativa
 02. cria ou altera arquivos
 03. git status
-05. git add *arquivo*'
-    05.01 Para adicionar todos os arquivos de uma única vez "git add ."
+05. git add *arquivo* *(Para adicionar todos os arquivos de uma única vez "git add .")*
 06. git status
 07. git commit -m "minha mensagem"
 08. git checkout main (mudando para a branch principal)
@@ -18,8 +17,7 @@
 02. git checkout -b <nova_branch>
 03. alterações de arquivos
 04. git status
-05. git add *arquivos*
-    05.01 Para adicionar todos os arquivos de uma única vez "git add ."
+05. git add *arquivos* *(Para adicionar todos os arquivos de uma única vez "git add .")*
 06. git status
 07. git commit -m "nova mensagem"
 08. git push origin (nova_branch)
@@ -34,8 +32,7 @@
 03. git checkout -b (nova_branch)
 04. alterações de arquivos
 05. git status
-06. git add *arquivos*
-   06.01 Para adicionar todos os arquivos de uma única vez "git add ."
+06. git add *arquivo* *(Para adicionar todos os arquivos de uma única vez "git add .")*
 07. git status
 08. git commit -m "nova mensagem"
 09. git push origin (nova_branch)
@@ -48,45 +45,45 @@
 git branch -D nomeDoBranchLocal
 
 
-## Tipo e descrição de commits
+# Tipo e descrição de commits
 
-# feat
+## feat
   >> Commits do tipo feat indicam que seu trecho de código está incluindo um novo recurso (se relaciona com o MINOR do versionamento semântico).
 
-# fix 
+## fix 
   >> Commits do tipo fix indicam que seu trecho de código commitado está solucionando um problema (bug fix), (se relaciona com o PATCH do versionamento semântico).
 
-# docs
+## docs
   >> Commits do tipo docs indicam que houveram mudanças na documentação, como por exemplo no Readme do seu repositório. (Não inclui alterações em código).
 
-# test
+## test
   >> Commits do tipo test são utilizados quando são realizadas alterações em testes, seja criando, alterando ou excluindo testes unitários. (Não inclui alterações em código)
 
-# build
+## build
   >> Commits do tipo build são utilizados quando são realizadas modificações em arquivos de build e dependências.
 
-# perf
+## perf
   >> Commits do tipo perf servem para identificar quaisquer alterações de código que estejam relacionadas a performance.
 
-# style
+## style
   >> Commits do tipo style indicam que houveram alterações referentes a formatações de código, semicolons, trailing spaces, lint... (Não inclui alterações em código).
 
-# refactor
+## refactor
   >> Commits do tipo refactor referem-se a mudanças devido a refatorações que não alterem sua funcionalidade, como por exemplo, uma alteração no formato como é processada determinada parte da tela, mas que manteve a mesma funcionalidade, ou melhorias de performance devido a um code review.
 
-# chore
+## chore
  >> Commits do tipo chore indicam atualizações de tarefas de build, configurações de administrador, pacotes... como por exemplo adicionar um pacote no gitignore. (Não inclui alterações em código)
 
-# ci
+## ci
   >> Commits do tipo ci indicam mudanças relacionadas a integração contínua (continuous integration).
 
-# raw
+## raw
   >> Commits do tipo raw indicam mudanças relacionadas a arquivos de configurações, dados, features, parâmetros.
 
-# cleanup
+## cleanup
   >> Commits do tipo cleanup são utilizados para remover código comentado, trechos desnecessários ou qualquer outra forma de limpeza do código-fonte, visando aprimorar sua legibilidade e manutenibilidade.
 
-# remove
+## remove
   >> Commits do tipo remove indicam a exclusão de arquivos, diretórios ou funcionalidades obsoletas ou não utilizadas, reduzindo o tamanho e a complexidade do projeto e mantendo-o mais organizado.
 >  
 # Exemplo Utilização
@@ -95,4 +92,4 @@ git branch -D nomeDoBranchLocal
 
 
 
-#Parte do Texto retirado da live do @TeoMeWhy
+#Parte do Texto retirado da live do @TeoMeWhy 
