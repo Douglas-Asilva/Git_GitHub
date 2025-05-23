@@ -89,3 +89,7 @@ git branch -D nomeDoBranchLocal
 # Exemplo Utilização
   >> git add .
   >> git commit -m "feat: adicionar funcionalidade xyz"
+
+
+
+#Parte do Texto retirado da live do @TeoMeWhy
