@@ -4,9 +4,10 @@
 ## Fluxo de trabalho Git local
 
 01. git checkout -b (nome-da-branch) Cria uma nova branch e já ativa
-02. cria ou atua arquivos
+02. cria ou altera arquivos
 03. git status
-05. git add *arquivos*'
+05. git add *arquivo*'
+    05.01 Para adicionar todos os arquivos de uma única vez "git add ."
 06. git status
 07. git commit -m "minha mensagem"
 08. git checkout main (mudando para a branch principal)
@@ -18,6 +19,7 @@
 03. alterações de arquivos
 04. git status
 05. git add *arquivos*
+    05.01 Para adicionar todos os arquivos de uma única vez "git add ."
 06. git status
 07. git commit -m "nova mensagem"
 08. git push origin (nova_branch)
@@ -33,6 +35,7 @@
 04. alterações de arquivos
 05. git status
 06. git add *arquivos*
+   06.01 Para adicionar todos os arquivos de uma única vez "git add ."
 07. git status
 08. git commit -m "nova mensagem"
 09. git push origin (nova_branch)
